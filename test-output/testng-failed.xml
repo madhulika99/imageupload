@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="photoUpload.ChooseFile">
+      <class name="com.qa.docs.testcases.Documents_page_Test">
         <methods>
-          <include name="setUp"/>
-          <include name="loginToApplication"/>
+          <include name="extentSetup"/>
+          <include name="createNewDocs"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="extentClose"/>
         </methods>
-      </class> <!-- photoUpload.ChooseFile -->
+      </class> <!-- com.qa.docs.testcases.Documents_page_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

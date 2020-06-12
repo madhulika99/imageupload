@@ -1,21 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31018" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:06:03 CDT">
+  <suite name="Default suite" duration-ms="232176" started-at="2020-06-12T00:28:52 CDT" finished-at="2020-06-12T00:32:44 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31018" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:06:03 CDT">
-      <class name="photoUpload.ChooseFile">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:photoUpload.ChooseFile@4b1c1ea0]" name="setUp" is-config="true" duration-ms="11124" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:05:44 CDT">
+    <test name="Default test" duration-ms="232176" started-at="2020-06-12T00:28:52 CDT" finished-at="2020-06-12T00:32:44 CDT">
+      <class name="com.qa.docs.testcases.Documents_page_Test">
+        <test-method status="PASS" signature="extentSetup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="extentSetup" is-config="true" duration-ms="140" started-at="2020-06-12T00:28:52 CDT" finished-at="2020-06-12T00:28:52 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:photoUpload.ChooseFile@4b1c1ea0]" name="loginToApplication" duration-ms="19849" started-at="2020-06-12T00:05:44 CDT" finished-at="2020-06-12T00:06:03 CDT">
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="setup" is-config="true" duration-ms="18554" started-at="2020-06-12T00:28:53 CDT" finished-at="2020-06-12T00:29:11 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-      </class> <!-- photoUpload.ChooseFile -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="createNewDocs" duration-ms="27917" started-at="2020-06-12T00:29:11 CDT" description="enter the new docs details in the form" data-provider="exceldata" finished-at="2020-06-12T00:29:39 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jacket Sale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[discounted]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Exports]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="1128" started-at="2020-06-12T00:29:39 CDT" finished-at="2020-06-12T00:29:40 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewDocs status=SUCCESS method=Documents_page_Test.createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="setup" is-config="true" duration-ms="18065" started-at="2020-06-12T00:29:40 CDT" finished-at="2020-06-12T00:29:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="createNewDocs" duration-ms="28063" started-at="2020-06-12T00:29:58 CDT" description="enter the new docs details in the form" data-provider="exceldata" finished-at="2020-06-12T00:30:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes Sale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[overpriced]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Word Templates]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[see]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="928" started-at="2020-06-12T00:30:26 CDT" finished-at="2020-06-12T00:30:27 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewDocs status=SUCCESS method=Documents_page_Test.createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="setup" is-config="true" duration-ms="17892" started-at="2020-06-12T00:30:27 CDT" finished-at="2020-06-12T00:30:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="createNewDocs" duration-ms="26386" started-at="2020-06-12T00:30:45 CDT" description="enter the new docs details in the form" data-provider="exceldata" finished-at="2020-06-12T00:31:11 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rated to hai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Root directory]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ftell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="896" started-at="2020-06-12T00:31:11 CDT" finished-at="2020-06-12T00:31:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewDocs status=SUCCESS method=Documents_page_Test.createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="setup" is-config="true" duration-ms="18310" started-at="2020-06-12T00:31:12 CDT" finished-at="2020-06-12T00:31:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="createNewDocs" duration-ms="26678" started-at="2020-06-12T00:31:31 CDT" description="enter the new docs details in the form" data-provider="exceldata" finished-at="2020-06-12T00:31:57 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frocks fresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[for baby gals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Exports]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[refresh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="1045" started-at="2020-06-12T00:31:57 CDT" finished-at="2020-06-12T00:31:58 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewDocs status=SUCCESS method=Documents_page_Test.createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="setup" is-config="true" duration-ms="18307" started-at="2020-06-12T00:31:58 CDT" finished-at="2020-06-12T00:32:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="createNewDocs" duration-ms="25984" started-at="2020-06-12T00:32:17 CDT" description="enter the new docs details in the form" data-provider="exceldata" finished-at="2020-06-12T00:32:43 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirts last Arrival]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sell them first]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Word Templates]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[refresh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="928" started-at="2020-06-12T00:32:43 CDT" finished-at="2020-06-12T00:32:44 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewDocs status=SUCCESS method=Documents_page_Test.createNewDocs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="extentClose()[pri:0, instance:com.qa.docs.testcases.Documents_page_Test@4b1c1ea0]" name="extentClose" is-config="true" duration-ms="338" started-at="2020-06-12T00:32:44 CDT" finished-at="2020-06-12T00:32:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentClose -->
+      </class> <!-- com.qa.docs.testcases.Documents_page_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,6 +3,7 @@ package com.qa.docs.testcases;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import org.sikuli.script.FindFailed;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -45,7 +46,7 @@ public class Documents_page_Test extends TestBase {
 	}
 
 	@Test(priority = 1, dataProvider = "exceldata", description = "enter the new docs details in the form")
-	public void createNewDocs(String Title, String Description, String Version, String Folder, String Tags) {
+	public void createNewDocs(String Title, String Description, String Version, String Folder, String Tags) throws FindFailed, InterruptedException {
 		Etest = Ereport.createTest("enter each details of the new doc");
 		docspage.docsDetailsEntry(Title, Description, Version, Folder, Tags);
 	}
