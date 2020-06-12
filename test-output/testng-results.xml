@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31018" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:06:03 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31018" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:06:03 CDT">
+      <class name="photoUpload.ChooseFile">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:photoUpload.ChooseFile@4b1c1ea0]" name="setUp" is-config="true" duration-ms="11124" started-at="2020-06-12T00:05:32 CDT" finished-at="2020-06-12T00:05:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:photoUpload.ChooseFile@4b1c1ea0]" name="loginToApplication" duration-ms="19849" started-at="2020-06-12T00:05:44 CDT" finished-at="2020-06-12T00:06:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+      </class> <!-- photoUpload.ChooseFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
